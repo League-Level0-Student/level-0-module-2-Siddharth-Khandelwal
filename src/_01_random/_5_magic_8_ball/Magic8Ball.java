@@ -15,17 +15,28 @@ public static void main(String[] args) {
 	
 
 	// 2. Get the user to enter a question for the 8 ball to answer
-	JOptionPane.showInputDialog("What is your question for the MAGIC 8 BALL?");
+	
+	String random = JOptionPane.showInputDialog("What is your question for the MAGIC 8 BALL?");
 
 	// 3. Make a variable and initialize it to a random number.
 	//     ** You will need to make a random object!
 	//     Limit the random numbers to be between 0 and 3
-Random ran = new Random();
+Random ran=new Random();
+	int randomNumber = ran.nextInt(4);
+	
 	
 	// 4. If the random number is 0
 if (randomNumber==0){
-	
-	
+		JOptionPane.showMessageDialog(null, "Yes");
+}
+else if(randomNumber==1) {
+JOptionPane.showMessageDialog(null, "No");
+}
+else if(randomNumber==2) {
+	JOptionPane.showMessageDialog(null, "Maybe you should ask Google");
+}
+else if(randomNumber==3) {
+JOptionPane.showMessageDialog(null, "NEVER EVER ASK ABOUT THAT!!!!!!!!");
 }
 	// -- tell the user "Yes"
 
