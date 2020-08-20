@@ -9,7 +9,7 @@ public class codingChallenge {
 		for (int i = 0; i <hi; i++) {
 				JOptionPane.showMessageDialog(null,"Happy Birthday ͡° ͜ʖ ͡°");
 		}
-	JOptionPane.showMessageDialog(null, "Happy Birthday, i owe you " +age+ " wishes!");	
+	JOptionPane.showMessageDialog(null, "Happy Birthday, I owe you " +age+ " wishes!");	
 	}
 	
 	
