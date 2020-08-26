@@ -10,7 +10,7 @@ public static void main(String[] args) {
 		JOptionPane.showInputDialog("Who should be the next president?");
 	}
 	if(Age<18) {
-		
+		JOptionPane.showMessageDialog(null, "No one cares what you think);");
 	}
 }
 }
